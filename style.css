@@ -1,0 +1,61 @@
+
+ h1{
+    color:purple;
+    margin:50px;
+     }
+    
+    
+    
+    p{
+          color:blue;
+    }
+    .header{
+        background-color: green ;
+    display : flex;
+    justify-content:space-between;
+}
+
+body{
+background-color: #808080;
+
+}
+
+.games {
+    display : flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly ;
+  }
+
+  .header *{
+border:solid;
+  }
+
+a:link{
+    color:red;
+}
+ 
+a:visited{
+    color:cyan;
+}
+
+a:hover{
+    color:blue
+}
+
+.menu a{
+    margin-right:30px;
+}
+
+.game h2{
+    position: absolute;
+    top:50%;
+    opacity:0;
+}
+
+.game:hover img{
+    opacity:0.33;
+}
+
+.game:hover h2{
+    opacity:1;
+}
